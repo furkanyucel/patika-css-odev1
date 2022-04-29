@@ -1,0 +1,387 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+body, html{
+    width: 100%;
+    height: 100vh;
+}
+
+.container{
+    text-align: center;
+}
+
+.container header {
+	width: 100%;
+	padding: 1em;
+	border-bottom: 1px solid #E5E5E5;
+	background-color: white;
+	transition: all 0.25s ease;
+}
+
+
+.container header nav {
+	padding-bottom: 0.3em;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	width: 100%;
+}
+
+.container header nav ul {
+	display: flex;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+
+.container header nav ul li {
+	list-style-type: none;
+}
+
+.container header nav ul li a {
+	padding: 1.5em;
+	color: black;
+	text-transform: uppercase;
+	letter-spacing: 0.3em;
+	font-size: 0.8rem;
+    transition: all 0.1s ease-in-out;
+}
+
+.container header nav ul li a:hover{
+	color: orange;
+    font-weight: 500;
+	border-bottom: 5px solid #a2a2a2;
+    cursor: pointer;
+    transform: scale(1);
+}
+
+.container header nav ul li .selected{
+    background-color: orange !important;
+    color: white !important;
+    font-weight: 500;
+	border-bottom: 5px solid orange !important;
+}
+
+
+
+
+/* main başlangıç */
+
+.container main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 11em;
+}
+
+/* aside başlangıç */
+
+.container main aside{
+    width: 100%;
+    /* background-color: #e5e7eb; */
+    background-color: orange;
+}
+.container main aside ul{
+    display: flex;
+    justify-content: center;
+}
+.container main aside ul li{
+    padding: 0.8em;
+    transition: all 0.3s ease-in-out;
+}
+.container main aside ul li:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+}
+.container main aside ul li a{
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 0.8em;
+}
+
+/* aside bitiş */
+
+
+
+
+
+/* section */
+.container main section{
+    display: flex;
+}
+
+
+.container main h2{
+    margin-top: 3em;
+    margin-bottom: 1em;
+}
+
+
+/* article başlangıç */
+
+.container main section article{
+    max-width: 100%;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin: 0.5em;
+    border-radius: 0.3em;
+    padding: 1em;
+    font-size: 0.8em;
+
+}
+
+img{
+    height: 20vh;
+}
+
+.container main section article div{}
+
+.container main section article div img{
+    height: 5em;
+}
+.container main section article div p{
+    line-height: 1.5em;
+    margin-bottom: 1em;
+}
+
+.container main section article div p > span{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+.container main section article div button{
+    border: none;
+    padding: 1em 5em;
+    background-color: orange;
+    border-radius: 0.2em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.container main section article div button:hover{
+    background-color: lightgreen;
+    color: white;
+    transform: scale(1);
+}
+
+/* article bitiş */
+
+
+
+/* header imaj başlangıç */
+.container main .header-img{
+    margin-bottom: 3em;
+}
+.container main .header-img img{
+    height: 400px;
+    width: 99vw;
+    object-fit: cover;
+    object-position: center;
+}
+/* header imaj bitiş */
+
+/* article info başlangıç */
+.container main .info{
+    margin-top: 3em;
+}
+.container main .info p{}
+
+.container main .info  a{
+    color: orange;
+}
+.container main .info  a:hover{
+    color: crimson;
+}
+.container main .info  a:focus{
+    color: green;
+}
+/* article info bitiş */
+
+/* hakkımızda main başlangıç */
+.container .hakkimizda-main{
+    margin-top: 3em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+/* hakkımızda main bitiş */
+
+/* hakkimizda imaj başlangıç */
+.container main section .hakkimizda-img{
+    margin-left: 5em;
+}
+
+.container main section .hakkimizda-img img{
+    height: 300px;
+    width: 500px;
+    object-fit: cover;
+    object-position: center;
+}
+/* hakkimizda imaj bitiş */
+
+/* hakkımızda info başlangıç */
+.container main .hakkimizda-info{
+    margin: auto 5em auto 2em;
+}
+.container main .hakkimizda-info p{
+    text-indent: 2em;
+    text-align: justify;
+}
+/* hakkımızda info bitiş */
+
+
+
+/* iletişim main başlangıç */
+.container .iletisim-main{
+    margin-top: 3.5em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/* iletişim main bitiş */
+
+/* iletişim harita başlangıç */
+
+.container main iframe{
+    /* margin: 4em auto; */
+}
+
+/* iletişim harita bitiş */
+
+.container main .iletisim-adres{
+    display: flex;
+    flex-direction: column;
+}
+
+.container main article address{
+    margin-top: 1em;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.container main article address p{
+    margin-bottom: 0.5em;
+}
+.container main article address a{
+    color: black;
+}
+
+.container main article address i{
+    color: orange;
+}
+
+
+/* form başlangıç */
+
+.container main article form{
+    display: flex;
+    flex-direction: column;
+    width: 500px
+}
+.container main article form input{
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+    border: 1px solid #a2a2a2;
+    border-radius: 0.2em;
+}
+.container main article form input:focus{
+    background-color: whitesmoke;
+    outline: none;
+    border: 1px solid transparent;
+}
+.container main article form textarea{
+    padding: 0.8em;
+    margin-bottom: 0.5em;
+    border: 1px solid #a2a2a2;
+    border-radius: 0.2em;
+}
+.container main article form textarea:focus{
+    background-color: whitesmoke;
+    outline: none;
+    border: 1px solid transparent;
+}
+.container main article form button{
+    border: none;
+    padding: 1em 5em;
+    background-color: rgba(255, 166, 0, 0.7);
+    border-radius: 0.2em;
+    font-size: 1em;
+    font-weight: 500;
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
+}
+.container main article form button:hover{
+    background-color: orange;
+    color: white;
+    transform: scale(1);
+}
+
+/* form bitiş */
+
+
+/* main bitiş */
+
+
+
+/* footer başlangıç */
+.container footer{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 11em;
+    padding-right: 10em;
+    background-color: black;
+}
+.container footer section{}
+
+.container footer section p{
+    font-size: 0.8em;
+    color: #a2a2a2;
+}
+
+.container footer .social-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container footer .social-icons li{
+    padding: 1em 1.5em;
+}
+.container footer .social-icons li a{}
+
+.container footer .social-icons li i{
+    color: #a2a2a2;
+}
+
+/* footer bitiş */
+
+/* hakkımızda footer başlangıç */
+.container .hakkimizda-footer{
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    align-self: flex-end;
+}
+/* hakkımızda footer bitiş */
+
+
+/* başa dön başlangıç */
+#basaDonBtn{
+    position: fixed;
+    bottom: 1em;
+    right: 1em;
+}
+#basaDonBtn a{}
+#basaDonBtn a img{
+    height: 3em;
+}
+/* başa dön bitiş */
