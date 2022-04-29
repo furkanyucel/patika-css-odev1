@@ -4,7 +4,6 @@ Bu repo [Patika](http://www.patika.dev) sitesi css eğitimi 1. ödevi için olu�
 > Navigasyon butonların default ve hover kodları
 > 
 ```css
-
 .container header nav ul li a {
 padding: 1.5em;
 color: black;
@@ -21,13 +20,11 @@ border-bottom: 5px solid #a2a2a2;
 cursor: pointer;
 transform: scale(1);
 }
-
 ```
 
 > Ürünlerimiz sayfasında yer alan "Satın Al" butonlarının default ve hover kodları
 
-```
-
+```css
 .container main section article div button{
 border: none;
 padding: 1em 5em;
@@ -44,7 +41,6 @@ background-color: lightgreen;
 color: white;
 transform: scale(1);
 }
-
 ```
 
 # Ekran Görüntüleri
