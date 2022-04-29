@@ -29,19 +29,20 @@ transform: scale(1);
 ```
 
 .container main section article div button{
-    border: none;
-    padding: 1em 5em;
-    background-color: orange;
-    border-radius: 0.2em;
-    font-size: 1em;
-    font-weight: 500;
-    cursor: pointer;
-    transition: all 0.4s ease-in-out;
+border: none;
+padding: 1em 5em;
+background-color: orange;
+border-radius: 0.2em;
+font-size: 1em;
+font-weight: 500;
+cursor: pointer;
+transition: all 0.4s ease-in-out;
 }
+
 .container main section article div button:hover{
-    background-color: lightgreen;
-    color: white;
-    transform: scale(1);
+background-color: lightgreen;
+color: white;
+transform: scale(1);
 }
 
 ```
