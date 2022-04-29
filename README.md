@@ -15,11 +15,11 @@ transition: all 0.1s ease-in-out;
 }
 
 .container header nav ul li a:hover{
-	color: orange;
-  font-weight: 500;
-	border-bottom: 5px solid #a2a2a2;
-  cursor: pointer;
-  transform: scale(1);
+color: orange;
+font-weight: 500;
+border-bottom: 5px solid #a2a2a2;
+cursor: pointer;
+transform: scale(1);
 }
 
 ```
