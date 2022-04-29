@@ -6,12 +6,12 @@ Bu repo [Patika](http://www.patika.dev) sitesi css eğitimi 1. ödevi için olu�
 ```css
 
 .container header nav ul li a {
-	padding: 1.5em;
-	color: black;
-	text-transform: uppercase;
-	letter-spacing: 0.3em;
-	font-size: 0.8rem;
-  transition: all 0.1s ease-in-out;
+padding: 1.5em;
+color: black;
+text-transform: uppercase;
+letter-spacing: 0.3em;
+font-size: 0.8rem;
+transition: all 0.1s ease-in-out;
 }
 
 .container header nav ul li a:hover{
